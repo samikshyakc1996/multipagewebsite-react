@@ -1,11 +1,8 @@
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 import portrait from "../img/image.jpg";
 
 class Info extends Component {
   render() {
-    function handleBtn() {
-      console.log("btn is clicked!");
-    }
     return (
       <main>
         <article>
@@ -13,8 +10,6 @@ class Info extends Component {
           <img src={portrait} alt="Sam image" />
 
           <section id="about">
-            <button onClick={handleBtn}>Learn About Me</button>
-
             <h2>About</h2>
             <div className="circle">
               <p>Samikshya KC. </p>
