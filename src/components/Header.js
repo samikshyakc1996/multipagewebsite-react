@@ -7,12 +7,16 @@ function Header() {
       </Link>
       <div className="menu">
         <Link className="menu-item" to="/">
+          Home
+        </Link>{" "}
+        <Link className="menu-item" to="/project">
+          {" "}
           Project
         </Link>{" "}
-        <Link className="menu-item" to="/about">
+        <Link className="menu-item" to="/contact">
           {" "}
-          About
-        </Link>{" "}
+          Contact
+        </Link>
       </div>
     </nav>
   );

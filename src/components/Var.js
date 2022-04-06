@@ -5,7 +5,9 @@ class Var extends Component {
     return (
       <section className="projects">
         {/* Hello my name is {this.state.name}. I am {this.state.age} years old. */}
-
+        <section className="project-section">
+          <h2>Projects</h2>
+        </section>
         <div className="project">
           <a
             style={{

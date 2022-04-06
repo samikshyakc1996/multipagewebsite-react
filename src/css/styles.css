@@ -234,3 +234,30 @@ form {
   outline: 0;
   border-color: #8700a8;
 }
+.form-like {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-like {
+  min-height: 40vh;
+}
+.form-like input,
+.form-like button {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 400px;
+  max-width: 100%;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.count-msg,
+.last-msg {
+  color: #6b71e2;
+  font-weight: bold;
+  font-size: 20px;
+}
